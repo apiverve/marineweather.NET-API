@@ -70,20 +70,21 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new QueryOptions {
+var queryOptions = new marineweatherQueryOptions {
   lat = 29.48003,
-  long = -37.62424
+  lon = -37.62424
 };
 ```
 
 ###### Simple Request
 
 ```
-var response = apiClient.execute(queryOptions);
+var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    Console.WriteLine(response);
+    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    Console.WriteLine(jsonResponse);
 }
 ```
 
