@@ -50,7 +50,7 @@ public class weather
     public int tOnowcm { get; set; }
 
     [JsonProperty("aViskm")]
-    public int aViskm { get; set; }
+    public double aViskm { get; set; }
 
     [JsonProperty("aVismiles")]
     public int aVismiles { get; set; }
