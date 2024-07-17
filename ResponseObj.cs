@@ -16,59 +16,50 @@ public class location
 
 public class weather
 {
-    [JsonProperty("mAempc")]
-    public double mAempc { get; set; }
+    [JsonProperty("maxtempc")]
+    public double maxtempc { get; set; }
 
-    [JsonProperty("mAempf")]
-    public double mAempf { get; set; }
+    [JsonProperty("maxtempf")]
+    public double maxtempf { get; set; }
 
-    [JsonProperty("mIempc")]
-    public double mIempc { get; set; }
+    [JsonProperty("mintempc")]
+    public double mintempc { get; set; }
 
-    [JsonProperty("mIempf")]
-    public double mIempf { get; set; }
+    [JsonProperty("mintempf")]
+    public double mintempf { get; set; }
 
-    [JsonProperty("aVempc")]
-    public double aVempc { get; set; }
+    [JsonProperty("avgtempc")]
+    public double avgtempc { get; set; }
 
-    [JsonProperty("aVempf")]
-    public double aVempf { get; set; }
+    [JsonProperty("avgtempf")]
+    public double avgtempf { get; set; }
 
-    [JsonProperty("mAindmph")]
-    public double mAindmph { get; set; }
+    [JsonProperty("maxwindmph")]
+    public double maxwindmph { get; set; }
 
-    [JsonProperty("mAindkph")]
-    public double mAindkph { get; set; }
+    [JsonProperty("maxwindkph")]
+    public double maxwindkph { get; set; }
 
-    [JsonProperty("tOrecipmm")]
-    public double tOrecipmm { get; set; }
+    [JsonProperty("totalprecipmm")]
+    public double totalprecipmm { get; set; }
 
-    [JsonProperty("tOrecipin")]
-    public double tOrecipin { get; set; }
+    [JsonProperty("totalprecipin")]
+    public double totalprecipin { get; set; }
 
-    [JsonProperty("tOnowcm")]
-    public int tOnowcm { get; set; }
+    [JsonProperty("totalsnowcm")]
+    public int totalsnowcm { get; set; }
 
-    [JsonProperty("aViskm")]
-    public double aViskm { get; set; }
+    [JsonProperty("avgviskm")]
+    public int avgviskm { get; set; }
 
-    [JsonProperty("aVismiles")]
-    public int aVismiles { get; set; }
-
-    [JsonProperty("aVumidity")]
-    public int aVumidity { get; set; }
+    [JsonProperty("avgvismiles")]
+    public int avgvismiles { get; set; }
 
     [JsonProperty("moonphase")]
     public string moonphase { get; set; }
 
-    [JsonProperty("moonillumItion")]
-    public int moonillumItion { get; set; }
-
-    [JsonProperty("ismoonup")]
-    public int ismoonup { get; set; }
-
-    [JsonProperty("issunup")]
-    public int issunup { get; set; }
+    [JsonProperty("moonillumination")]
+    public int moonillumination { get; set; }
 
 }
 
