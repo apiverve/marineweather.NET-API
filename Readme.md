@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new marineweatherQueryOptions {
+var queryOptions = new MarineWeatherQueryOptions {
   lat = 29.48003,
   lon = -37.62424
 };
@@ -100,23 +100,24 @@ if(response.error != null) {
       "lon": -37.62424
     },
     "weather": {
-      "maxtempc": 25.8,
-      "maxtempf": 78.4,
-      "mintempc": 21.4,
-      "mintempf": 70.5,
-      "avgtempc": 24.9,
-      "avgtempf": 76.7,
-      "maxwindmph": 7.4,
-      "maxwindkph": 11.9,
-      "totalprecipmm": 0.92,
-      "totalprecipin": 0.04,
+      "maxtempc": 26.9,
+      "maxtempf": 80.4,
+      "mintempc": 26.4,
+      "mintempf": 79.5,
+      "avgtempc": 26.7,
+      "avgtempf": 80,
+      "maxwindmph": 12.2,
+      "maxwindkph": 19.7,
+      "totalprecipmm": 1.5,
+      "totalprecipin": 0.06,
       "totalsnowcm": 0,
-      "avgviskm": 10,
-      "avgvismiles": 6,
-      "moonphase": "Waxing Gibbous",
-      "moonillumination": 75
+      "avgviskm": 9.6,
+      "avgvismiles": 5,
+      "moonphase": "First Quarter",
+      "moonillumination": 64
     }
-  }
+  },
+  "code": 200
 }
 ```
 
