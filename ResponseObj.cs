@@ -32,7 +32,7 @@ public class weather
     public double avgtempc { get; set; }
 
     [JsonProperty("avgtempf")]
-    public double avgtempf { get; set; }
+    public int avgtempf { get; set; }
 
     [JsonProperty("maxwindmph")]
     public double maxwindmph { get; set; }
@@ -50,7 +50,7 @@ public class weather
     public int totalsnowcm { get; set; }
 
     [JsonProperty("avgviskm")]
-    public int avgviskm { get; set; }
+    public double avgviskm { get; set; }
 
     [JsonProperty("avgvismiles")]
     public int avgvismiles { get; set; }
@@ -83,6 +83,9 @@ public class ResponseObj
 
     [JsonProperty("data")]
     public data data { get; set; }
+
+    [JsonProperty("code")]
+    public int code { get; set; }
 
 }
 
