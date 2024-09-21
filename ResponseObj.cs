@@ -20,7 +20,7 @@ public class weather
     public double maxtempc { get; set; }
 
     [JsonProperty("maxtempf")]
-    public double maxtempf { get; set; }
+    public int maxtempf { get; set; }
 
     [JsonProperty("mintempc")]
     public double mintempc { get; set; }
@@ -32,10 +32,10 @@ public class weather
     public double avgtempc { get; set; }
 
     [JsonProperty("avgtempf")]
-    public int avgtempf { get; set; }
+    public double avgtempf { get; set; }
 
     [JsonProperty("maxwindmph")]
-    public double maxwindmph { get; set; }
+    public int maxwindmph { get; set; }
 
     [JsonProperty("maxwindkph")]
     public double maxwindkph { get; set; }
