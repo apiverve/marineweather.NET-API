@@ -100,21 +100,21 @@ if(response.error != null) {
       "lon": -37.62424
     },
     "weather": {
-      "maxtempc": 26.9,
-      "maxtempf": 80.4,
-      "mintempc": 26.4,
-      "mintempf": 79.5,
-      "avgtempc": 26.7,
-      "avgtempf": 80,
-      "maxwindmph": 12.2,
-      "maxwindkph": 19.7,
-      "totalprecipmm": 1.5,
-      "totalprecipin": 0.06,
+      "maxtempc": 26.1,
+      "maxtempf": 79,
+      "mintempc": 21.7,
+      "mintempf": 71.1,
+      "avgtempc": 25.4,
+      "avgtempf": 77.8,
+      "maxwindmph": 12,
+      "maxwindkph": 19.3,
+      "totalprecipmm": 2.36,
+      "totalprecipin": 0.09,
       "totalsnowcm": 0,
-      "avgviskm": 9.6,
+      "avgviskm": 9.5,
       "avgvismiles": 5,
-      "moonphase": "First Quarter",
-      "moonillumination": 64
+      "moonphase": "New Moon",
+      "moonillumination": 0
     }
   },
   "code": 200
